@@ -9,13 +9,18 @@ var word1;
 var word2;
 var word3;
 var s;
+//global variables added by Ambika
 let textfield;
 let output;
 let submit;
 let saveLine;
+let font_IBM;
+let myFont;
 
 function preload() {
     data = loadTable('assets/conceptgen.csv', 'csv', 'header');
+    font_IBM = loadFont('assets/IBMPlexMono-Regular.ttf')
+  myFont= loadFont('assets/MONOSB.TTF')
 }
 
 function setup() {
@@ -41,7 +46,7 @@ function setup() {
     word2 = random(col4);
     word3 = random(col2);
 
-    //add by ambika details in form.js
+    //added by ambika details in form.js
     textfield = select('#yourWords');
     output = select('#output');
     submit = select('#submitline');

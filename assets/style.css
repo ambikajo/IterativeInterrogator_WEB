@@ -10,7 +10,7 @@ src: url("MONOSB.TTF") format("truetype");
 }
 
 html, body {
-	 height: 100%; 
+	 height: 100%;
 }
 
 .x0, .y0, .z0 {
@@ -31,6 +31,7 @@ html, body {
 /*	transform: translate(-50%, -50%);*/
 	font-family: monosb;
 	font-size: 30px;
+	padding: 30px;
 
 }
 
@@ -39,7 +40,7 @@ html, body {
 	  /* transition: height 0.9s cubic-bezier(.50, .08, 0, .99) ; */
 	   /*transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 	   animation: color 20s infinite;*/
-	
+
 
 }
 
@@ -57,12 +58,12 @@ html, body {
  position: inherit;
 /*    display: inline;*/
 	font-family: monosb;
-	font-size: 20px;
+	font-size: 30px;
     text-align: center;
 /*    left: 50%;*/
 /*    margin-top: 10px;*/
-    
-   
+
+
 }
 
 .signature{
@@ -72,7 +73,26 @@ html, body {
     transform: translate(-50%);
     left: 50%;
     width: 400px;
-    
+
+}
+
+textarea{
+	outline: none;
+	resize: none;
+}
+
+/* buttons for save and submit */
+button{
+	padding: 5px;
+	border: none;
+	background-color: aquamarine;
+	font-family: monospace;
+}
+
+#askagain{
+	font-family: monospace;
+	font-size: 10px;
+	padding: 20px;
 }
 
 a.button:link{
@@ -95,7 +115,7 @@ a.button:active{
 
 a.button:visited{
     color: black;
-    
+
 }
 
 
@@ -105,12 +125,12 @@ a:link{
 }
 a:visited{
     color: black;
-    
+
 }
 
 text{
         font-family: 'Barlow', sans-serif;
 font-size: 10px;
-     
-    
+
+
 }
