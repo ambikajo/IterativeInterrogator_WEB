@@ -24,11 +24,11 @@ html, body {
 .bodycopy {
 	/*transition: transform 0.9s cubic-bezier(.50, .08, 0, .99);*/
     text-align: center;
-	position: absolute;
-	top: 50%;
+/*	position: absolute;*/
+	margin-top: 20%;
 	left: 50%;
-	width: 60%;
-	transform: translate(-50%, -50%);
+/*	width: 60%;*/
+/*	transform: translate(-50%, -50%);*/
 	font-family: monosb;
 	font-size: 30px;
 
@@ -43,10 +43,32 @@ html, body {
 
 }
 
+.submission{
+    position: fixed;
+    text-align: center;
+    bottom: 2%;
+    transform: translate(-50%);
+    left: 50%;
+    width: 400px;
+    padding: 20px;
+}
+
+.output-style{
+ position: inherit;
+/*    display: inline;*/
+	font-family: monosb;
+	font-size: 20px;
+    text-align: center;
+/*    left: 50%;*/
+/*    margin-top: 10px;*/
+    
+   
+}
+
 .signature{
    position: fixed;
     text-align: center;
-    bottom: 25px;
+    bottom: 2%;
     transform: translate(-50%);
     left: 50%;
     width: 400px;
